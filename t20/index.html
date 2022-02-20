@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+.block{
+width:500px;
+height:200px;
+background:linear-gradient(to right,red,navy);
+color:white;
+font-family:cursive;
+font-size:130%;
+margin-top:50px;
+margin-left:500px;
+display:flex;
+align-items:center;
+justify-content:center;
+transition:all 1s ease;
+}
+.anim1:hover{
+
+box-shadow:0 0 0 25px inset blue;
+
+}
+.anim2{
+opacity:50%
+
+}
+.anim2:hover{
+opacity:100%;
+}
+.anim3:hover{
+transform:scale(1.2,1.2);
+}
+.anim4:hover{
+border-radius:100px;
+}
+.anim5:hover{
+transform:rotateZ(30deg);
+
+}
+.end{
+animation-name:top33;
+animation-duration:6s;
+animation-iteration-count:infinite;
+
+
+}
+@keyframes top33{
+0%{
+transform:rotateZ(0deg) scale(1,1); 
+color:blue;
+}
+50%{
+transform:rotateZ(-360deg) scale(2,2);
+color:red;
+}
+
+100%{
+transform:rotateZ(360deg)scale(1,1);
+color:grieane;
+}
+}
+</style>
+</head>
+<body>
+<div  class="anim1 block"> приклад 1</div>
+<div  class="anim2 block"> приклад 2</div>
+<div  class="anim3 block"> приклад 3</div>
+<div  class="anim4 block"> приклад 4</div>
+<div  class="anim5 block"> приклад 5</div>
+<div  class="anim6 block"><div class="end"> приклад 6</div> </div>
+
+</body>
+</html>
