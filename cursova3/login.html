@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+<button onclick="sign_in_up_google()" class="gg" > Увійти за допомогою Gogle </button><br>
+
+<input type="text" placeholder="email" id="email" style="margin-left: 25px; margin-top: 5px;"><br>
+<input type="text" placeholder="password" id="password" style="margin-left: 25px; margin-top: 5px;"><br>
+<input type="text" placeholder="name" id="names" style="margin-left: 25px; margin-top: 5px;"><br>
+<input type="text" placeholder="phone" id="phone" style="margin-left: 25px; margin-top: 5px;"><br>
+<input type="text" placeholder="login" id="login" style="margin-left: 25px; margin-top: 5px;"><br>
+<button onclick="reg()" style="margin-left: 25px; margin-top: 5px;">Зарейструватися</button>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <input type="text" placeholder="email" id="email_vhid" style="margin-left: 25px; margin-top: 5px;"><br>
+<input type="text" placeholder="password" id="password_vhid" style="margin-left: 25px; margin-top: 5px;"><br>
+<button onclick="email_log()" style="margin-left: 25px; margin-top: 5px;">Увійти</button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.0/firebase-auth.js"></script>
+    <script src="fairbase/fb.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
+
+
