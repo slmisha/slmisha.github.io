@@ -1,0 +1,107 @@
+body{
+background-color: #313133;
+
+
+}
+.modal1{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.58);
+    position: absolute;
+    top:0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  
+}
+.for_input{
+    width: 70vw;
+    height: 80vh;
+    background-color: black;
+    overflow-y: scroll;
+    
+}
+.towar{
+width: 100vh;
+border: 3px solid white;
+color: white;
+background-color: black;
+border-radius: 5px;
+margin-left:10px ;
+}
+.nazva{
+width: 7vw;
+height: 7vh;
+background-color: #313133;
+color: white;
+border: none;
+text-align: center;
+display: flex;
+}
+
+
+  
+  .wrap {
+   
+  margin: 20px;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+
+  
+  .button:hover, .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  button:hover::before, button:focus::before {
+    opacity: 1;
+  }
+  
+ 
+  
+  button:hover::after, button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  }
+
+
+
